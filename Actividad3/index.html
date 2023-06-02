@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moneda de cambio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+  
+</head>
+<body class="body">
+  <div class="container mt-5">
+    <h1 class="text-center">Valores Cambio Monetario</h1>
+    <div class="mb-3">
+      <label for="indicator-select" class="form-label">Seleccione una moneda:</label>
+      <select id="indicator-select" class="form-select">
+        <option value="">Seleccionar una moneda</option>
+      </select>
+    </div>
+    <div id="indicator-info" class="d-none">
+      <h2 id="indicator-name" class="title2"><u></u></h2>
+      <p class="texto"><strong>Valor:</strong> <span id="indicator-value"></span></p>
+      <p class="texto 2"><strong>Unidad de medida:</strong> <span id="indicator-unit"></span></p>
+      <canvas class="j" id="indicator-chart"></canvas>
+    </div>
+  </div>
+
+  <script class="j1" src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script class="j2" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

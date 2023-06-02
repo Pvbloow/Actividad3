@@ -1,0 +1,30 @@
+.body{
+    background: url(fondo2.jpg);
+   
+    
+}
+
+.text-center{
+    color: rgb(1, 1, 1);
+}
+
+.container {
+    max-width: 500px;
+}
+
+.mb-3{
+    color: rgb(12, 12, 12);
+}
+
+.texto{
+    color:antiquewhite
+}
+
+
+.title2{
+    color: antiquewhite;
+}
+
+.form-label{
+    color: antiquewhite;
+}
